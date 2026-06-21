@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react' 
 import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import axios from 'axios';
 import toast from 'react-hot-toast';
